@@ -12,11 +12,11 @@ class Controller extends Package {
     protected $pkgVersion = '0.9.5';
 
     public function getPackageDescription() {
-        return t("Add Multiple Pages");
+        return t("Add multiple pages to your site at a time");
     }
 
     public function getPackageName() {
-        return t("Add multiple pages to your site at a time");
+        return t("Add Multiple Pages");
     }
 
     public function install() {
